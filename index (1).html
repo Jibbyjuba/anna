@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Match</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://i.ibb.co/XfdbTsCH/3554867c27822d6cdc349500f0afe37b.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(0.5px);
+        }
+
+        .card {
+            margin-top: 20px;
+            position: relative;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 395px;
+            width: 82%;
+            z-index: 1;
+            /* Force content centering */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+
+        .cta-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 500px; /* Limits width so it doesn't look stretched on large screens */
+            padding: 16px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(90deg, #ff9a9e 0%, #a18cd1 100%);
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="card">
+    <h1>Anna wants to meet someone local. Verify 18+ to see.</h1>
+    
+    <a href="YOUR_OFFER_LINK_HERE" class="cta-button">Find My Matches</a>
+    <a href="YOUR_OFFER_LINK_HERE" class="cta-button">See Who’s Online</a>
+</div>
+
+</body>
+</html>
